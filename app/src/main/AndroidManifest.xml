@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="vladimir.ru.critical_issue_test_project">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".ProjectApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".views.activities.MainActivity"
+                  android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+        <activity android:name=".views.activities.ScalingActivity"
+                  android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+        <activity android:name=".views.activities.AddEditElementActivity"
+                  android:configChanges="keyboardHidden|orientation|screenSize"/>
+
+        <activity android:name=".views.activities.SplashActivity"
+                  android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key"/>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="f3f9a5b3657235707c7eda94848c23447c0ac5dc" />
+    </application>
+
+</manifest>

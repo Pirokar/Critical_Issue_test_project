@@ -1,0 +1,31 @@
+<resources>
+    <string name="google_maps_api_key" translatable="false">AIzaSyBZH3SFdxWWfjnFsx6WH1yVx52SGGH8SiE</string>
+
+    <string name="app_name" translatable="false">Critical Issue test project</string>
+    <string name="list">List</string>
+    <string name="scaling">Scaling</string>
+    <string name="service">Service</string>
+    <string name="map">Map</string>
+    <string name="change_language">Change language</string>
+    <string name="english">English</string>
+    <string name="russian">Russian</string>
+    <string name="not_all_permissions_granted">Please provide all required permissions for correct work</string>
+    <string name="error_happened">Cannot get message list. Please try to refresh</string>
+    <string name="no_data">No data</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="address">Address</string>
+    <string name="add_element">Add element</string>
+    <string name="about">About</string>
+    <string name="enter_text">Enter text</string>
+    <string name="done">Done</string>
+    <string name="revert">Revert</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save_changes_title">Save changes?</string>
+    <string name="save_changes_text">Text box is not empty. Do you want to save changes?</string>
+    <string name="developer">Developed specially for \"Critical Issue\" as a test project by Rybalka Vladimir.</string>
+    <string name="phone_number">Phone</string>
+</resources>

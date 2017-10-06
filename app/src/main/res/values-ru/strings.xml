@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="list">Список</string>
+    <string name="scaling">Масштабирование</string>
+    <string name="service">Сервис</string>
+    <string name="map">Карта</string>
+    <string name="change_language">Сменить язык</string>
+    <string name="english">Английский</string>
+    <string name="russian">Русский</string>
+    <string name="not_all_permissions_granted">Пожалуйста, предоставьте все требуемые разрешения для корректной работы приложенния</string>
+    <string name="no_data">Нет данных</string>
+    <string name="error_happened">Не удается получить список сообщений. Попробуйте обновить страницу.</string>
+    <string name="longitude">Долгота</string>
+    <string name="latitude">Широта</string>
+    <string name="address">Адресс</string>
+    <string name="add_element">Добавить элемент</string>
+    <string name="about">О программе</string>
+    <string name="enter_text">Введите текст</string>
+    <string name="done">Готово</string>
+    <string name="revert">Отмена</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отменить</string>
+    <string name="edit">Редактирова</string>
+    <string name="delete">Удалить</string>
+    <string name="save_changes_title">Сохранить изменения?</string>
+    <string name="save_changes_text">Текстовое окно не пустое. Вы хотите сохранить изменения?</string>
+    <string name="developer">Разработано Владимиром Рыбалка специально для \"Critical Issue\" в качестве тестового проекта.</string>
+    <string name="phone_number">Телефон</string>
+</resources>

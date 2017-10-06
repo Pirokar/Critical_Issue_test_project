@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize">
+
+        <ImageButton
+            android:id="@+id/gallery_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:padding="8dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/gallery_button_selector"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?actionBarSize">
+
+        <ImageButton
+            android:id="@+id/camera_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:padding="8dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/camera_button_selector"
+            android:scaleType="centerInside"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
